@@ -1,0 +1,14 @@
+<div class="">
+
+
+<div class="col-3">  <button class="btn btn-primary w-100" (click)="getBooks()"> get books</button>
+</div>
+<div class="col-9">
+<ul>
+  <li *ngFor="let book of books">
+    {{book.name}}
+
+  </li>
+</ul>
+</div>
+</div>
